@@ -1,19 +1,19 @@
 {
   "networks": [
     {
-      "apiUrl": "http://localhost:3020",
-      "bridgeUrl": "http://localhost:3000/bridge",
-      "hostnames": [
-        "localhost"
-      ],
-      "icon": "/images/icons/zksync-arrows.svg",
-      "l2ChainId": 270,
-      "l2NetworkName": "Local",
+      "apiUrl": "https://visualiser.magma-rpc.com",
+      "verificationApiUrl": "https://verifier.magma-rpc.com",
+      "bridgeUrl": "https://magma-bridge-portal.vercel.app/bridge",
+      "hostnames": [],
+      "icon": "/images/icons/lava.svg",
+      "l1ExplorerUrl": "https://sepolia.etherscan.io",
+      "l2ChainId": 300,
+      "l2NetworkName": "Magma Testnet",
       "maintenance": false,
-      "name": "local",
+      "name": "magma",
       "published": true,
-      "rpcUrl": "http://localhost:3050",
-      "baseTokenAddress": "0x000000000000000000000000000000000000800A"
+      "rpcUrl": "https://carbon.magma-rpc.com",
+      "baseTokenAddress": "0x000000000000000000000000000000000000800a"
     }
   ]
 }

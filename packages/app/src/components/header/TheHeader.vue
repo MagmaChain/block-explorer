@@ -4,7 +4,7 @@
       <div class="header-container">
         <div class="logo-container">
           <router-link :to="{ name: 'home' }">
-            <span class="sr-only">ZKsync</span>
+            <span class="sr-only">Magma</span>
             <zk-sync-era />
           </router-link>
         </div>
@@ -53,7 +53,7 @@
       class="hero-banner-container"
       :class="[`${currentNetwork.name}`, { 'home-banner': route.path === '/' }]"
     >
-      <hero-arrows class="hero-image" />
+      <!-- <hero-arrows class="hero-image" /> -->
     </div>
     <transition
       enter-active-class="duration-200 ease-out"
@@ -159,7 +159,7 @@ const { currentNetwork } = useContext();
 const navigation = reactive([
   {
     label: computed(() => t("header.nav.documentation")),
-    url: "https://docs.zksync.io/zksync-era/tooling/block-explorers",
+    url: "https://docs.magma.foundation/",
   },
 ]);
 
@@ -203,8 +203,8 @@ if (currentNetwork.value.bridgeUrl) {
 const toolsLinks = reactive(links);
 
 const socials = [
-  { url: "https://join.zksync.dev/", component: DiscordIcon },
-  { url: "https://x.com/zksync", component: TwitterIcon },
+  // { url: "https://join.zksync.dev/", component: DiscordIcon },
+  { url: "https://x.com/MagmaBlockchain", component: TwitterIcon },
 ];
 
 const hasContent = computed(() => {

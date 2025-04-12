@@ -16,11 +16,11 @@ export type BaseToken = {
 const defaultBaseToken: BaseToken = {
   l2Address: BASE_TOKEN_L2_ADDRESS,
   l1Address: BASE_TOKEN_L1_ADDRESS,
-  symbol: "ETH",
-  name: "Ether",
+  symbol: "LAVA",
+  name: "LAVA",
   decimals: 18,
   // Fallback data in case ETH token is not in the DB
-  iconURL: "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1698873266",
+  iconURL: "https://www.magma.foundation/favicon-32x32.png",
 };
 
 const getBaseToken = (): BaseToken => {
