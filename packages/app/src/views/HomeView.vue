@@ -137,7 +137,7 @@ getBatches(1, new Date());
     }
     .batches-view-all-arrow,
     .transactions-view-all-arrow {
-      @apply w-4 ml-1;
+      @apply ml-1 w-4;
     }
   }
 
