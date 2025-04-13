@@ -53,8 +53,8 @@ export class TokenDto {
   @ApiProperty({
     type: String,
     description: "Token icon URL",
-    example: "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1698873266",
-    examples: ["https://assets.coingecko.com/coins/images/279/large/ethereum.png?1698873266", null],
+    example: "https://magma-explorer.vercel.app/lava.png",
+    examples: ["https://magma-explorer.vercel.app/lava.png", null],
     required: false,
   })
   public readonly iconURL?: string;

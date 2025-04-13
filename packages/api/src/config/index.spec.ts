@@ -27,11 +27,11 @@ describe("config", () => {
         name: "Ether",
         decimals: 18,
         // Fallback data incase ETH token is not in the DB
-        iconURL: "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1698873266",
+        iconURL: "https://magma-explorer.vercel.app/lava.png",
       },
       ethToken: {
         decimals: 18,
-        iconURL: "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1698873266",
+        iconURL: "https://magma-explorer.vercel.app/lava.png",
         l1Address: "0x0000000000000000000000000000000000000000",
         l2Address: "0x000000000000000000000000000000000000800A",
         name: "Ether",
@@ -234,7 +234,7 @@ describe("config", () => {
             symbol: "ETH",
             usdPrice: undefined,
             decimals: 18,
-            iconURL: "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1698873266",
+            iconURL: "https://magma-explorer.vercel.app/lava.png",
           },
           NODE_ENV: "test",
           port: 3020,

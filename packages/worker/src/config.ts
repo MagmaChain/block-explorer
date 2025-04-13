@@ -99,7 +99,7 @@ export default () => {
         symbol: BASE_TOKEN_SYMBOL || "ETH",
         decimals: parseInt(BASE_TOKEN_DECIMALS, 10) || 18,
         l1Address: BASE_TOKEN_L1_ADDRESS || "0x0000000000000000000000000000000000000000",
-        iconUrl: BASE_TOKEN_ICON_URL || "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1698873266",
+        iconUrl: BASE_TOKEN_ICON_URL || "https://magma-explorer.vercel.app/lava.png",
         name: BASE_TOKEN_NAME || "Ether",
       },
     },

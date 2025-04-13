@@ -59,7 +59,7 @@ For networks with a custom base token, there are a number of environment variabl
 - `BASE_TOKEN_SYMBOL` - base token symbol, e.g.: `ZK`
 - `BASE_TOKEN_NAME` - base token name, e.g.: `ZK`
 - `BASE_TOKEN_DECIMALS` - base token decimals, e.g.: `18`
-- `BASE_TOKEN_ICON_URL` - base token icon url, e.g.: `https://assets.coingecko.com/coins/images/279/large/ethereum.png?1698873266`
+- `BASE_TOKEN_ICON_URL` - base token icon url, e.g.: `https://magma-explorer.vercel.app/lava.png`
 
 ## Running the app
 

@@ -52,7 +52,7 @@ export class BaseAddressDto {
           decimals: 18,
           usdPrice: 1.0001,
           liquidity: 1000000,
-          iconURL: "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1698873266",
+          iconURL: "https://magma-explorer.vercel.app/lava.png",
         },
       },
       "0xD754fF5e8A6f257E162F72578A4Bb0493C0681d9": {
@@ -65,7 +65,7 @@ export class BaseAddressDto {
           decimals: 18,
           usdPrice: 1.0001,
           liquidity: 1000000,
-          iconURL: "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1698873266",
+          iconURL: "https://magma-explorer.vercel.app/lava.png",
         },
       },
     },
